@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+  /* Optional: Week-1 linear gradient syntax + prefixes */
+  background: black; 
+  background: -moz-linear-gradient(top, blue 0%, white 100%);
+  background: -webkit-linear-gradient(top, blue 0%, white 100%);
+  background: -o-linear-gradient(top, blue 0%, white 100%);
+  background: linear-gradient(to bottom, blue 0%, white 100%);  /* generic */
+
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  padding:0px;
+  margin:0px;
+  background-color: black; /* lecture keeps this too */
+}
+
+#wrapper {
+  width: 960px; height: 800px;
+  margin-left: auto; margin-right: auto;
+  background-color: LightSlateGrey;
+}
+
+
+
+/* headings, paragraphs, lists */
+h1,h2,h3,h4,h5,h6,p,li { margin-left:15px; }
+
+/* footer + banner (Week-1) */
+#footer { height:80px; }
+#banner { height:120px; background-color: SlateGrey; }
+#banner h1 { color: white; }
+
+/* Week-1 .box and hover */
+.box {
+  height:150px; width:150px; float:left;
+  background-color: tan;
+  margin:15px; opacity:.5;
+}
+.box:hover { background-color: white; opacity:1; }
+
+/* clear float */
+.clear { clear: both; }
+
+
